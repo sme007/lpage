@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Logo</div>
+            <div class="phoneContact">Contact us: (+234)8067575474</div>
+        </div>
+        <form action="home.html" method="post" name="form" onsubmit="return validated()">
+            <h1>User Sign-up</h1>
+            <p>You won't want to miss this opportunity of a life time. Signup today for the your IT solutions</p>
+            <input type="text" name="fname" placeholder="First name"><br>
+            <input type="text" name="lname" placeholder="Last name"><br>
+            <div id="email_error">Please fill in your email</div>
+            <input type="text" autocomplete="off" name="email" placeholder="Email"><br>
+            <div id="contact_error">Please fill in your contact</div>
+            <input type="text" name="contact" placeholder="Contact"><br>
+            <button type="submit">Sign-up</button>
+        </form>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
